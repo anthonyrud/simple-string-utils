@@ -58,8 +58,9 @@ console.log(repeatString('abc', 3)); // Output: 'abcabcabc'
 console.log(replaceSubstring('Hello, World!', 'World', 'Universe')); // Output: 'Hello, Universe!'
 console.log(randomString(10)); // Output: A random string of 10 characters, e.g., 'Gs8fhKj1Mq'
 
+```
 
-Functions
+## Functions
 
 reverseString(str)
 Reverses the given string.
@@ -69,6 +70,7 @@ Parameters:
 str (String): The input string to reverse.
 Returns: A new string with the characters in reverse order.
 
+
 capitalizeString(str)
 Capitalizes the first character of the given string.
 
@@ -77,6 +79,7 @@ Parameters:
 str (String): The input string to capitalize.
 Returns: A new string with the first character capitalized.
 
+
 countWords(str)
 Counts the number of words in the given string.
 
@@ -84,6 +87,7 @@ Parameters:
 
 str (String): The input string to count words in.
 Returns: The number of words in the input string.
+
 
 truncateString(str, maxLength)
 Truncates the given string to the specified maximum length.
@@ -94,6 +98,7 @@ str (String): The input string to truncate.
 maxLength (Number): The maximum allowed length for the output string.
 Returns: A new string truncated to the specified maximum length, with '...' added if the input string is longer than the maximum length.
 
+
 camelCase(str)
 Converts the given string to camel case.
 
@@ -102,6 +107,7 @@ Parameters:
 str (String): The input string to convert.
 Returns: A new string in camel case format.
 
+
 kebabCase(str)
 Converts the given string to kebab case.
 
@@ -109,6 +115,7 @@ Parameters:
 
 str (String): The input string to convert.
 Returns: A new string in kebab case format.
+
 
 snakeCase(str)
 Converts the given string to snake case.
@@ -119,7 +126,6 @@ str (String): The input string to convert.
 Returns: A new string in snake case format.
 
 
-
 isPalindrome(str)
 Checks if the given string is a palindrome (ignoring whitespace, punctuation, and letter case).
 
@@ -128,6 +134,7 @@ Parameters:
 str (String): The input string to check.
 Returns: true if the string is a palindrome, false otherwise.
 
+
 removeWhitespace(str)
 Removes all whitespace characters from the given string.
 
@@ -135,6 +142,7 @@ Parameters:
 
 str (String): The input string to remove whitespace from.
 Returns: A new string with all whitespace characters removed.
+
 
 repeatString(str, times)
 Repeats the given string n times.
@@ -145,6 +153,7 @@ str (String): The input string to repeat.
 times (Number): The number of times to repeat the string.
 Returns: A new string with the input string repeated the specified number of times.
 
+
 replaceSubstring(str, oldSubstring, newSubstring)
 Replaces all occurrences of a substring with a new substring.
 
@@ -154,6 +163,7 @@ str (String): The input string to process.
 oldSubstring (String): The substring to be replaced.
 newSubstring (String): The substring to replace the old substring with.
 Returns: A new string with all occurrences of the old substring replaced with the new substring.
+
 
 randomString(length)
 Generates a random string of a given length.
